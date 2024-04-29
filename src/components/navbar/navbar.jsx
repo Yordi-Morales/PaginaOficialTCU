@@ -31,13 +31,7 @@ const Navigation = () => {
           </li>
           <li>
             <Link to="/podcast" className={location.pathname === '/podcast' ? 'active-link' : ''} onClick={closeMenu}>Podcast</Link>
-          </li>
-          <li>
-            <Link to="/financial-quest" className={location.pathname === '/financial-quest' ? 'active-link' : ''} onClick={closeMenu}>Compatibilidad Pareja</Link>
-          </li>
-          <li>
-            <a href="https://sirucalculadora.com/" target="_blank" rel="noopener noreferrer" className='siru' onClick={closeMenu}>SIRU</a>   
-          </li>
+          </li>      
           <li className='dropdown'>
             <span>Calculadoras</span>
             <ul>
@@ -59,6 +53,12 @@ const Navigation = () => {
                 <Link to="/cars-table" className={location.pathname === '/cars-table' ? 'active-link' : ''} onClick={closeMenu}>Costo Vehículo</Link>
               </li>
             </ul>
+          </li>
+          <li>
+            <Link to="/financial-quest" className={location.pathname === '/financial-quest' ? 'active-link' : ''} onClick={closeMenu}>Compatibilidad Pareja</Link>
+          </li>
+          <li>
+            <a href="https://sirucalculadora.com/" target="_blank" rel="noopener noreferrer" className='siru' onClick={closeMenu}>SIRU</a>   
           </li>
         </ul>
         <div className='social'>
