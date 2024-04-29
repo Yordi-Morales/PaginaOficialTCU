@@ -190,7 +190,7 @@ const FinancialCalculatorInput = () => {
                     <button onClick={handleAgregarGasto} className='add-btn misc-btn'>Agregar gasto</button>
                 </div>
             </div>
-            <button onClick={exportToExcel} className='excel-btn'>Exportar a Excel</button>
+            <button onClick={exportToExcel} className='export-btn'>Exportar a Excel</button>
         </div>
     );
 };
