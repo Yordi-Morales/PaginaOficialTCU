@@ -1,5 +1,6 @@
 .quiz-container {
-    border-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -8,13 +9,14 @@
     align-items: center;
     min-height: 80vh;
     flex-direction: column;
-    background-color: #ebebebbc;
+    background-color: #000000ba;
     z-index: 1;
+
 }
 
 
 .main-quiz{
-     background-image: url('https://d24x9can9aadud.cloudfront.net/wp-content/uploads/sites/3/2018/09/Upset-Couple.jpg');
+    background-image: url('https://d24x9can9aadud.cloudfront.net/wp-content/uploads/sites/3/2018/09/Upset-Couple.jpg');
     height: 90vh;
     background-size: cover;
     background-position: unset;
@@ -42,9 +44,12 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.1s ease;
+    font-weight: bold;
+
 }
 
 .main-window button:hover{
+    font-weight: bold;
     color:orange;
 }
 
@@ -54,8 +59,7 @@
 
 .centered p{
     margin-bottom: 5px;
-    font-weight: bold;
-    color: #767676;
+    color: #ffffff;
 }
 
 .buttons-bottom{
@@ -63,6 +67,7 @@
     text-align: center;
 }
 .buttons-bottom button{
+    font-weight: bold;
     margin-left: 1.2%;
     width: 20%;
     padding: 7px;
@@ -80,6 +85,9 @@
 }
 
 .main-window h2 {
+    border-bottom: 2px white solid;
+    padding-bottom: 65px;
+    color: white;
     margin-top: -5%;
     margin-bottom: 15%;
     margin-left: auto;
@@ -88,6 +96,7 @@
 }
 
 .main-window p {
+    color: white;
     margin-bottom: 5%;
     font-weight: bold;
 }
@@ -99,6 +108,7 @@
 
 
 #nxt-btn{
+    font-weight: bold;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -145,6 +155,7 @@
   }
   
 .result{
+    color: orange;
     position: relative;
     width: 60%;
     display: flex;
@@ -155,9 +166,7 @@
     font-size: medium;
 }
 
-.result button:hover{
-    color: orange;
-}
+
 
 @media (max-width: 768px) {
     .quiz-container {
@@ -165,6 +174,11 @@
         width: 90%;
     }
 
+    .question-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
     .centered p{
         width: 100%;
     }
@@ -178,7 +192,7 @@
       }
       .quiz-container {
         margin-top: 5%;
-        width: 98%;
+        width: 90%;
 
     }
     .test{
@@ -192,9 +206,18 @@
         width: 33%;
     }
 
-    .main-window h2 {
+    .main-quiz{
+        margin-top: -5%;
+    }
 
-        width: 100%;
+    .main-window h2 {
+        width: 90%;
+    }
+
+    .main-window p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
     
 
@@ -203,6 +226,8 @@
 @media (max-width: 380px) {
 
     .main-quiz{
-        height: 100vh;
+        height: 113vh;
     }
+
+
 }

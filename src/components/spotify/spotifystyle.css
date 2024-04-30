@@ -37,7 +37,7 @@
 .spotify-class i {
     color: #1db954;
     margin-top: 0.2%;
-    font-size: 200%;
+    font-size: 350%;
     text-decoration: none!important;
 }
 
@@ -51,8 +51,7 @@
 
 .title a {
     color: #1db954;
-
-    font-size: 90%;
+    font-size: 200%;
     text-decoration: none!important;
 }
   
@@ -64,9 +63,18 @@
     color: white;
     width: 40%;
     text-align: justify;
+    font-size: large;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
+    .title a{
+        font-size: 2vh;
+    }
+
+    .spotify-class i{
+        font-size: 230%;
+    }
     .slick-slide iframe {
         position: relative;
         height: 300px; 
@@ -86,7 +94,9 @@
         border-bottom: 2px solid #1db954;
     }
 
-    
+    .spotify-class{
+        height: 120vh;
+    }
 
 
 }

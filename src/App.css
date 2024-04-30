@@ -1,3 +1,7 @@
 body{
     width:auto;
 }
+
+button{
+    font-weight: bold;
+}

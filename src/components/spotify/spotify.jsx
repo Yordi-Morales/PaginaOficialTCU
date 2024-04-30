@@ -15,7 +15,7 @@ const Spotify = () => {
       </div>
       <p>En nuestro podcast, abordamos temas cruciales relacionados con la gestión financiera personal y familiar. 
           Ofrecemos consejos prácticos, estrategias inteligentes y análisis profundos para ayudarte a tomar decisiones 
-          financieras informadas y alcanzar tus metas económicas.</p>
+          financieras informadas y alcanzar metas económicas.</p>
 
       <div className='spotify-frame'>
         <Carousel />

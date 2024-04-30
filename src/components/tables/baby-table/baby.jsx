@@ -32,7 +32,7 @@ const BabyTable = () => {
 
         </Container>
         <p>*
-          Los precios de los pañales suministrados están basados en la tabla de referencia de ©Huggies,
+          Los pañales usados en este estudio están basados en la tabla de referencia de ©Huggies,
           así como sus precios. Estos precios son únicamente una referencia general de los costos asociados con el cuidado de un bebé. No se incluyeron productos que puedan tener una variabilidad considerable, como prendas de vestir, medicamentos, entre otros.
 
         </p>

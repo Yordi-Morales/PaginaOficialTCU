@@ -104,7 +104,7 @@ const QuizComponent = () => {
                 {currentWindow === 0 && (
                     <div className="main-window">
                         <h2>Este es un cuestionario para saber qué tan adecuado gestiona las finanzas en pareja</h2>
-                        <p>Consta de 10 preguntas, al completarlo muestra una calificación en pantalla</p>
+                        <p>Consta de 10 preguntas</p>
                         <button onClick={handleNext}>Iniciar</button>
                     </div>
                 )}
